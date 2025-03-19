@@ -3,6 +3,9 @@
     font-weight: 400;
     font-style: normal;
   } */
+   * {
+    box-sizing: border-box;
+    }
   body {
     display: flex;
     flex-direction: column;
@@ -18,7 +21,7 @@
   /* W3 schools helped me do the image in the background */
   header {
     background-color: #72ab9d;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0;
     color: #23534e;
     background-image: url(waves.png);
