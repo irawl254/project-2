@@ -44,17 +44,9 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-  }
-  nav ul {
-    background-color: #23534e;
     padding: 20px;
-    text-decoration: none;
-    color: #d8ddd1;
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    flex-wrap: wrap;
   }
+
   nav a {
     text-decoration: none;
     color: #fefbea;
