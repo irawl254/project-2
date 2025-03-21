@@ -57,7 +57,7 @@ header {
     font-size: 1rem;
     background-color: #f78a77;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    margin: 5px;
+    margin: 5px 15px;
   }
 
   /* Body Stuff */
@@ -182,10 +182,13 @@ header {
     border: 0;
   }
   .buttons :hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 0.25s;
   }
-
+  a:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s;
+  }
   /* animations */
   #carhenge {
 	-webkit-animation: puff-in-center 0.5s ease-out both;
