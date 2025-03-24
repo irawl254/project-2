@@ -246,7 +246,7 @@
         background-size: cover;
         background-position: center; }
 
-    @media (max-width: 900px) {
+    @media (max-width: 768px) {
         .parent {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -259,7 +259,7 @@
         .div4 { grid-area: 3/ 2 / 5 / 3; }
     }
     
-    @media (max-width: 500px) {
+    @media (max-width: 320px) {
         .parent {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);

@@ -262,7 +262,7 @@ a:hover {
   background-position: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .parent {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -295,7 +295,7 @@ a:hover {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 320px) {
     .parent {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);

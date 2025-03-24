@@ -268,7 +268,7 @@
     background-position: center;
     background-repeat: no-repeat;}
 
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
         .parent {
           grid-template-columns: repeat(2, 1fr);
           grid-template-rows: repeat(6, 1fr);
