@@ -19,6 +19,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
   }
   
   header h1 {
@@ -134,7 +135,7 @@ header {
     margin: 15px;
   }
 
-
+/* moving background photo animation from animista */
 @-webkit-keyframes kenburns-top {
     0% {
       -webkit-transform: scale(1) translateY(0);

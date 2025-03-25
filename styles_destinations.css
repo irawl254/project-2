@@ -7,7 +7,6 @@
 /* Header Stuff */
 header {
     background-color: #72ab9d;
-    /* padding: 20px; */
     margin: 0;
     color: #23534e;
     background-image: url(waves.png);
@@ -19,6 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
   }
   
   header h1 {
@@ -189,7 +189,7 @@ header {
     transform: scale(1.05);
     transition: transform 0.25s;
   }
-  /* animations */
+  /* animations from animista */
   #carhenge {
 	-webkit-animation: puff-in-center 0.5s ease-out both;
 	        animation: puff-in-center 0.5s ease-out both;
